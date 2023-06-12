@@ -1,10 +1,10 @@
 @font-face {
   font-family: "bogart";
-  src: url("https://chad-bennett.github.io/links/bogart-semibold.woff2")
+  src: url("https://oxyhyxo.github.io/links/bogart-semibold.woff2")
       format("woff2"),
-    url("https://chad-bennett.github.io/links/bogart-semibold.woff")
+    url("https://oxyhyxo.github.io/links/bogart-semibold.woff")
       format("woff"),
-    url("https://chad-bennett.github.io/links/bogart-semibold.ttf")
+    url("https://oxyhyxo.github.io/links/bogart-semibold.ttf")
       format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -25,14 +25,14 @@
 :root {
   --shadow: 1px 1px 4px #88888888;
   --inset-shadow: inset 1px 1px 3px #88888888;
-  --color-dark: #3e3831 !important;
+  --color-dark: #FFFFFF !important;
   --font-size: 18px !important;
-  --color-gray-light: #d1cdc7;
-  --color-gray-lightest: #eae8e3;
+  --color-gray-light: #000000;
+  --color-gray-lightest: #000000;
   --color-background: #0A0020;
-  --color-greens: #d1dba2;
+  --color-reds: #000000;
   --color-blues: #16949b;
-  --color-blues-translucent: #c9ddde;
+  --color-blues-translucent: #000000;
   --border: 0.5px solid transparent;
   --radius: 0.3rem;
 }
@@ -127,8 +127,9 @@ body {
 .site-body-left-column-site-name::before {
   background: none;
   display: block;
-  content: url(https://chad-bennett.github.io/links/meCircle.png);
-  width: 100%;
+  content: url(https://oxyhyxo.github.io/links/logo.png);
+  width: 200;
+  height: 200;
 }
 
 .site-body-left-column .search-bar {
